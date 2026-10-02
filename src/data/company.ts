@@ -6,6 +6,8 @@
  * Information in this file represents verified factual details from the live store & business registration.
  */
 
+import { assetPath } from "@/lib/utils";
+
 export const COMPANY = {
   name: "DAGAS SHOP",
   legalName: "DAGAS SHOP",
@@ -68,11 +70,11 @@ export const COMPANY = {
 
   // Brand Assets
   assets: {
-    logoOriginal: "/images/logo/dagas_logo_original.jpg",
-    logoGold: "/images/logo/dagas_logo_gold_crop.png",
-    logoWhite: "/images/logo/dagas_logo_white_crop.png",
-    logoTransparent: "/images/logo/dagas_logo_transparent_crop.png",
-    favicon: "/favicon.png",
+    logoOriginal: assetPath("/images/logo/dagas_logo_original.jpg"),
+    logoGold: assetPath("/images/logo/dagas_logo_gold_crop.png"),
+    logoWhite: assetPath("/images/logo/dagas_logo_white_crop.png"),
+    logoTransparent: assetPath("/images/logo/dagas_logo_transparent_crop.png"),
+    favicon: assetPath("/favicon.png"),
   },
 
   // Target Customer Types
