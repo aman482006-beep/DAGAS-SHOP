@@ -16,11 +16,11 @@ export default function HomePage() {
       {/* Hero Section */}
       <Hero />
 
-      {/* SECTION 1: Trust / Business Snapshot */}
-      <ValueProps />
-
-      {/* SECTION 2: Shop by Category */}
+      {/* Put real product categories immediately after the hero */}
       <CategoryGrid />
+
+      {/* Business benefits after product discovery */}
+      <ValueProps />
 
       {/* SECTION 3: New Arrivals / Featured Collection */}
       <FeaturedCollection />

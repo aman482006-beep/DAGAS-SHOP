@@ -15,7 +15,7 @@ export function Hero() {
   };
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-stone-50 via-white to-stone-50/50 py-16 lg:py-24 border-b border-gray-100">
+    <section className="relative overflow-hidden bg-gradient-to-b from-stone-50 via-white to-stone-50/50 py-12 sm:py-16 lg:py-20 border-b border-gray-100">
       {/* Background architectural grid */}
       <div 
         aria-hidden="true" 
@@ -33,12 +33,12 @@ export function Hero() {
             </div>
 
             {/* Headline */}
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-950 leading-[1.12]">
-              Wholesale Kidswear from <span className="text-dagas-600 underline decoration-dagas-300 decoration-wavy decoration-1">Bangalore</span>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight text-gray-950 leading-[1.04] max-w-3xl">
+              Wholesale Kidswear<br className="hidden sm:block" /> from <span className="text-dagas-600">Bangalore</span>
             </h1>
 
             {/* Supporting Text */}
-            <p className="text-lg sm:text-xl text-gray-700 font-medium leading-relaxed max-w-2xl mx-auto lg:mx-0">
+            <p className="text-lg sm:text-xl text-gray-700 font-medium leading-relaxed max-w-xl mx-auto lg:mx-0">
               Kidswear wholesaler and bulk manufacturer serving retailers, boutiques and bulk buyers.
             </p>
 
@@ -56,19 +56,19 @@ export function Hero() {
               {/* Primary CTA */}
               <Link
                 href="/shop"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-gray-950 text-white font-semibold text-sm hover:bg-gray-800 transition-all shadow-md active:scale-98"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-dagas-600 text-white font-semibold text-sm hover:bg-dagas-700 transition-colors shadow-md shadow-dagas-600/20 active:scale-98"
               >
-                <span>Explore Collection</span>
+                <span>Browse Wholesale Collection</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
 
               {/* Secondary CTA */}
               <Link
                 href="/request-catalogue"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-white border border-gray-300 text-gray-900 font-semibold text-sm hover:bg-gray-50 transition-all shadow-sm active:scale-98"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-white border border-gray-300 text-gray-900 font-semibold text-sm hover:border-dagas-400 hover:bg-stone-50 transition-colors active:scale-98"
               >
                 <FileText className="w-4 h-4 text-dagas-600" />
-                <span>Get Wholesale Catalogue</span>
+                <span>Request Wholesale Catalogue</span>
               </Link>
 
               {/* Third CTA */}
@@ -118,9 +118,9 @@ export function Hero() {
                     Sultanpete Supply Hub
                   </h3>
                 </div>
-                <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-700 text-xs font-medium border border-emerald-200">
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
-                  Active Dispatches
+                <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-stone-100 text-stone-700 text-xs font-medium border border-stone-200">
+                  <span className="w-1.5 h-1.5 rounded-full bg-dagas-500"></span>
+                  B2B Wholesale
                 </span>
               </div>
 
@@ -162,7 +162,7 @@ export function Hero() {
                   className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-dagas-50 hover:bg-dagas-100 text-dagas-900 text-xs sm:text-sm font-semibold border border-dagas-200 transition-colors"
                 >
                   <Sparkles className="w-4 h-4 text-dagas-600" />
-                  <span>Receive Today&apos;s Showroom Availability PDF</span>
+                  <span>Request the Wholesale Catalogue</span>
                 </Link>
               </div>
             </div>

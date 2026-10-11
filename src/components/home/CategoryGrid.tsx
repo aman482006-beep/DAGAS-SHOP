@@ -6,19 +6,19 @@ import { CATEGORIES } from "@/data/categories";
 
 export function CategoryGrid() {
   return (
-    <section className="py-16 sm:py-20 bg-stone-50/60 border-b border-gray-100">
+    <section className="py-12 sm:py-16 bg-white border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
           <div>
             <span className="text-xs font-bold text-dagas-600 tracking-wider uppercase">
-              Showroom Taxonomy
+              Find Your Next Bestsellers
             </span>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-950 mt-1">
               Shop Wholesale by Category
             </h2>
             <p className="text-sm sm:text-base text-gray-600 mt-2 max-w-2xl">
-              Curated kidswear lines engineered for high retail turnover, comfortable fits, and dependable quality.
+              Explore the range, compare indicative wholesale prices, and enquire about the styles that fit your store.
             </p>
           </div>
 
@@ -32,12 +32,12 @@ export function CategoryGrid() {
         </div>
 
         {/* Categories Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-5">
           {CATEGORIES.map((category) => (
             <Link
               key={category.id}
               href={`/shop/${category.slug}`}
-              className="group flex flex-col bg-white rounded-2xl overflow-hidden border border-gray-200/80 shadow-sm hover:shadow-md hover:border-dagas-300 transition-all"
+              className="group flex flex-col bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-lg hover:border-dagas-300 transition-all"
             >
               {/* Category Image - 4:5 ratio */}
               <div className="relative aspect-[4/5] w-full bg-stone-100 overflow-hidden">
@@ -54,7 +54,7 @@ export function CategoryGrid() {
               </div>
 
               {/* Category Text Content */}
-              <div className="p-4 flex-1 flex flex-col justify-between">
+              <div className="p-3 sm:p-4 flex-1 flex flex-col justify-between">
                 <div>
                   <h3 className="font-bold text-gray-900 group-hover:text-dagas-600 transition-colors text-base sm:text-lg">
                     {category.name}
