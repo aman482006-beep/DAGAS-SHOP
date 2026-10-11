@@ -39,7 +39,7 @@ export function Hero() {
 
             {/* Supporting Text */}
             <p className="text-lg sm:text-xl text-gray-700 font-medium leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              Kidswear for retailers, boutiques, resellers and bulk buyers.
+              Kidswear for retailers, boutiques, wholesalers, manufacturers and bulk buyers.
             </p>
 
             {/* Additional Supporting Line */}
