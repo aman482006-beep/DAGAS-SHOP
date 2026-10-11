@@ -48,7 +48,7 @@ export function WhyDagas() {
             Why Source From DAGAS SHOP
           </h2>
           <p className="text-base sm:text-lg text-gray-700 font-medium">
-            DAGAS SHOP supplies kidswear to retailers, resellers, boutiques and bulk buyers from Bengaluru.
+            DAGAS SHOP supplies kidswear to retailers, wholesalers, boutiques, manufacturers and bulk buyers from Bengaluru.
           </p>
           <p className="text-sm text-gray-500 max-w-xl mx-auto">
             We eliminate unnecessary intermediary layers so you get competitive pricing, consistent fabric standards, and dependable fulfillment.
