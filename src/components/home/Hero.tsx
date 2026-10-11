@@ -25,7 +25,7 @@ export function Hero() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           {/* Left Column: Core Positioning Copy */}
-          <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
+          <div className="lg:col-span-7 space-y-6 text-center lg:text-left dagas-enter">
             {/* Geo and B2B badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-dagas-100/80 border border-dagas-200 text-dagas-900 text-xs sm:text-sm font-medium">
               <MapPin className="w-4 h-4 text-dagas-600" />
@@ -39,7 +39,7 @@ export function Hero() {
 
             {/* Supporting Text */}
             <p className="text-lg sm:text-xl text-gray-700 font-medium leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              Kidswear for retailers, boutiques, wholesalers, manufacturers and bulk buyers.
+              Kidswear wholesaler and bulk manufacturer serving retailers, boutiques and bulk buyers.
             </p>
 
             {/* Additional Supporting Line */}
@@ -106,7 +106,7 @@ export function Hero() {
           </div>
 
           {/* Right Column: Visual B2B Showroom Showcase Card */}
-          <div className="lg:col-span-5">
+          <div className="lg:col-span-5 dagas-enter dagas-enter--delay">
             <div className="relative mx-auto max-w-md lg:max-w-none bg-white p-6 sm:p-8 rounded-2xl border border-gray-200/90 shadow-xl space-y-6">
               {/* Showroom Header */}
               <div className="flex items-center justify-between pb-4 border-b border-gray-100">

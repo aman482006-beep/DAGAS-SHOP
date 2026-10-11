@@ -41,7 +41,7 @@ export default function AboutPage() {
             </h1>
 
             <p className="text-lg sm:text-xl text-gray-700 font-medium leading-relaxed">
-              Kidswear for retailers, boutiques, wholesalers, manufacturers and bulk buyers.
+              Kidswear wholesaler and bulk manufacturer serving retailers, boutiques and bulk buyers.
             </p>
 
             <p className="text-sm sm:text-base text-gray-600 leading-relaxed max-w-3xl">

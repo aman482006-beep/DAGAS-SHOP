@@ -45,7 +45,7 @@ export function CategoryGrid() {
                   src={category.image}
                   alt={`${category.name} Wholesale Kidswear Bangalore`}
                   fill
-                  className="object-cover group-hover:scale-103 transition-transform duration-300"
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
                   sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
                 />
                 <div className="absolute top-2.5 left-2.5 bg-white/90 backdrop-blur-xs px-2.5 py-1 rounded-md text-[11px] font-semibold text-gray-800 shadow-xs">

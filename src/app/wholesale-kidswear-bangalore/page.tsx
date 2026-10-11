@@ -20,7 +20,7 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 export const metadata: Metadata = {
   title: "Wholesale Kidswear Supplier in Bangalore | DAGAS SHOP Sultanpete",
   description:
-    "Leading wholesale kidswear supplier in Bangalore located in Sultanpete. Kidswear for retailers, boutiques, resellers, and bulk buyers with flexible quantities and ₹300–₹600+ range.",
+    "Kidswear wholesaler and bulk manufacturer in Bangalore's Sultanpete market, supplying retailers, boutiques and bulk buyers with flexible quantities and wholesale prices from ₹300–₹600+.",
   alternates: {
     canonical: "/wholesale-kidswear-bangalore",
   },
@@ -50,7 +50,7 @@ export default function WholesaleBangalorePage() {
       desc: "E-commerce entrepreneurs and social sellers who need agile, low-risk inventory replenishment with flexible bundles.",
     },
     {
-      title: "Regional Resellers & Wholesalers",
+      title: "Regional Wholesalers & Bulk Buyers",
       desc: "Tier-2 and tier-3 city distributors sourcing bulk consignments directly from the Bangalore wholesale market.",
     },
     {
@@ -81,7 +81,7 @@ export default function WholesaleBangalorePage() {
             </h1>
 
             <p className="text-lg sm:text-xl text-gray-700 font-medium leading-relaxed">
-              Kidswear for retailers, boutiques, resellers and bulk buyers.
+              Kidswear wholesaler and bulk manufacturer serving retailers, boutiques and bulk buyers.
             </p>
 
             <p className="text-sm sm:text-base text-gray-600 leading-relaxed max-w-3xl">

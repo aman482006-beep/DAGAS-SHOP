@@ -39,7 +39,7 @@ export default function InternationalBuyersPage() {
     {
       country: "Uganda",
       region: "East Africa",
-      details: "Regular consignments dispatched for kidswear stores and boutique resellers in Kampala and across East Africa.",
+      details: "Regular consignments dispatched for kidswear stores and boutique retailers in Kampala and across East Africa.",
       freight: "Air Cargo & Ocean Container Consolidation",
       badge: "Active Destination",
     },

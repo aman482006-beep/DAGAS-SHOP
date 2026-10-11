@@ -26,6 +26,47 @@
   }
 }
 
+/* Restrained CSS motion: no animation library or extra JavaScript. */
+@keyframes dagas-fade-up {
+  from {
+    opacity: 0.82;
+    transform: translateY(7px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dagas-enter {
+  animation: dagas-fade-up 420ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.dagas-enter--delay {
+  animation-delay: 90ms;
+}
+
+/* Used by the mobile navigation drawer. */
+.animate-fadeIn {
+  animation: dagas-fade-up 180ms ease-out both;
+}
+
+/* Honor the visitor's system-level motion preference. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
 /* Hide scrollbar for clean horizontal swipe on mobile categories */
 .no-scrollbar::-webkit-scrollbar {
   display: none;

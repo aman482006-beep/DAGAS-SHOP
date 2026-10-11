@@ -10,7 +10,7 @@ export const FAQS: FAQItem[] = [
     id: "faq-1",
     category: "Ordering & MOQ",
     question: "Do you sell wholesale?",
-    answer: "Yes. DAGAS SHOP operates primarily as a B2B wholesale kidswear supplier based in Bengaluru. We supply children's clothing stores, independent boutiques, regional resellers, e-commerce brands, and bulk apparel buyers.",
+    answer: "Yes. DAGAS SHOP operates primarily as a B2B wholesale kidswear supplier based in Bengaluru. We supply children's clothing stores, independent boutiques, regional wholesalers and distributors, e-commerce brands, and bulk apparel buyers.",
   },
   {
     id: "faq-2",
