@@ -13,7 +13,7 @@ export const COMPANY = {
   legalName: "DAGAS SHOP",
   shortName: "DAGAS",
   tagline: "Wholesale Kidswear Supplier in Bangalore, India",
-  subtitle: "Kidswear for retailers, boutiques, resellers and bulk buyers.",
+  subtitle: "Kidswear for retailers, boutiques, wholesalers, manufacturers and bulk buyers.",
   additionalDifferentiator: "For larger requirements, DAGAS SHOP can also manufacture according to buyer requirements.",
   
   // Verified Contact Details
@@ -81,7 +81,7 @@ export const COMPANY = {
   targetAudience: [
     "Kidswear Retailers & Multi-brand Outlets",
     "Independent Children's Clothing Boutiques",
-    "Wholesale Distributors & Regional Resellers",
+    "Wholesale Distributors & Manufacturers",
     "Instagram, WhatsApp & Social Commerce Sellers",
     "E-commerce Brands & Online Marketplaces",
     "Export & International Children's Apparel Buyers",
